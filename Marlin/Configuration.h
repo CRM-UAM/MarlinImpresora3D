@@ -667,9 +667,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  23.05
-    #define DEFAULT_Ki   2.00
-    #define DEFAULT_Kd 66.47
+    #define DEFAULT_Kp  22.57  // Calibrados con PID auto-tune y el ventilador puesto al maximo
+    #define DEFAULT_Ki   1.21  // Siguiendo https://3dprinterly.com/how-to-calibrate-your-hotend-heatbed-with-pid-tuning/
+    #define DEFAULT_Kd 104.93
   #endif
 #endif
 
